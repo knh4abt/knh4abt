@@ -1,6 +1,6 @@
 ### Engineer building ML systems for the places it actually has to ship — cars, factories, clinics.
 
-Mechatronics MSc, Bosch ADAS background. Stuttgart.
+Mechatronics and Robotics MSc, Bosch ADAS background. Stuttgart.
 
 - **[driving-scene-segmentation](https://github.com/knh4abt/driving-scene-segmentation)** — DeepLabV3+ vs SegFormer-B0 on Cityscapes, quantifying the accuracy-vs-parameters trade-off for ADAS.
 - **[medvision](https://github.com/knh4abt/medvision)** — EfficientNet-B0 for colorectal cancer histology classification (99.6% val accuracy).
