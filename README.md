@@ -7,3 +7,4 @@ Mechatronics and Robotics MSc, Bosch ADAS background. Stuttgart.
 - **[rul-for-nasa-jet-engines](https://github.com/knh4abt/rul-for-nasa-jet-engines)** — Predictive maintenance on NASA C-MAPSS turbofan data.
 
 Get in contact > [nael.tarek.95@gmail.com](mailto:nael.tarek.95@gmail.com)
+LinkedIn > https://www.linkedin.com/in/nael-k-8016a711a/
