@@ -2,7 +2,7 @@
 
 I build ML systems for the places they actually have to ship - cars, factories, clinics.
 
-Mechatronics and Robotics MSc, Bosch ADAS background. Based in Stuttgart.
+Mechatronics and Cyber Physical Systems MSc, Bosch ADAS background. Based in Stuttgart.
 
 I care more about why a model fails than how well it scores.
 
