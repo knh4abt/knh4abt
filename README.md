@@ -7,7 +7,7 @@
 ### Hi, I'm Nael 👋
 
 Mechatronics engineer at Bosch, Stuttgart. I spent ~2 years managing requirements on ADAS
-programs, and since 2025 I build ML models. I still test them the way I tested requirements:
+projects, and since 2025 I build ML models. I still test them the way I tested requirements:
 every claim needs evidence.
 
 **A score tells you how good a model is. Its failures tell you whether you can ship it.**
