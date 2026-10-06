@@ -12,11 +12,12 @@ every claim needs evidence.
 
 **A score tells you how good a model is. Its failures tell you whether you can ship it.**
 
+- 🔬 **Now:** in Bosch's AI research department, working on multi-agent systems.
 - 🎯 **What I bring:** requirements discipline for ML: traceable results, tested pipelines, documented failure modes.
-- 🤖 **Building now:** LLM agents with verification built in: LangGraph multi-agent graphs, MCP tools, reviewer loops.
+- 🤖 **Side projects:** LLM agents with verification built in: LangGraph multi-agent graphs, MCP tools, reviewer loops.
 - 🔍 **How I work:** each project answers a question and shows where the model breaks, not just its best score.
 - 🦾 **Roots:** robot arms, mobile robots, embedded motor control. I like software that has to work in the physical world.
-- 🧭 **Interested in:** robotics, aerospace and defense.
+- 🧭 **Open to:** AI and ML engineering roles in robotics, aerospace and defense.
 
 <p align="center">
   <img src="assets/agent-story.gif" width="600" alt="Detector misses objects, an LLM agent explains it wrongly, a reviewer catches it, the agent fixes it" /><br/>
