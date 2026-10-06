@@ -1,7 +1,7 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=170&section=header&text=Nael%20Tarek&fontColor=ffffff&fontSize=46&fontAlignY=36&desc=ML%20engineer%20%C2%B7%20perception%20%C2%B7%20LLM%20agents&descAlignY=58&descSize=18" width="100%" alt="Nael Tarek" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=170&section=header&text=Nael%20Khamess&fontColor=ffffff&fontSize=46&fontAlignY=36&desc=ML%20engineer%20%C2%B7%20perception%20%C2%B7%20LLM%20agents&descAlignY=58&descSize=18" width="100%" alt="Nael Khamess" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1400&color=36BCF7&center=true&vCenter=true&width=640&lines=I+teach+machines+to+see.;Then+I+build+agents+that+explain+where+they+don't.;Ex-requirements+manager.+Now+my+stakeholders+are+neural+nets.;They+don't+read+the+spec+either." alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1400&color=36BCF7&center=true&vCenter=true&width=600&lines=I+teach+machines+to+see.;Then+I+build+agents+that+explain;where+the+machines+fail+to+see.;Ex-requirements+manager.;Now+my+stakeholders+are+neural+nets.;They+don%27t+read+the+spec+either." alt="Typing intro" />
 </p>
 
 ### Hi, I'm Nael 👋
