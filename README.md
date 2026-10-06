@@ -6,19 +6,17 @@
 
 ### Hi, I'm Nael 👋
 
-ML engineer at Bosch, Stuttgart, with a systems engineering background. I managed
-requirements on ADAS programs for 2.5 years. Now I build the models and test whether they
-would pass that kind of review.
+Mechatronics engineer at Bosch, Stuttgart. I spent ~2 years managing requirements on ADAS
+programs, and since 2025 I build ML models. I still test them the way I tested requirements:
+every claim needs evidence.
 
 **A score tells you how good a model is. Its failures tell you whether you can ship it.**
 
-- 🎯 **What I bring:** requirements discipline for ML. Every claim traced to a number, every number to a test.
+- 🎯 **What I bring:** requirements discipline for ML: traceable results, tested pipelines, documented failure modes.
 - 🤖 **Building now:** LLM agents with verification built in: LangGraph multi-agent graphs, MCP tools, reviewer loops.
 - 🔍 **How I work:** each project answers a question and shows where the model breaks, not just its best score.
 - 🦾 **Roots:** robot arms, mobile robots, embedded motor control. I like software that has to work in the physical world.
 - 🧭 **Interested in:** robotics, aerospace and defense.
-- ⚡ **Fun fact:** my first agent wrote "360 small persons missed". The real number was 227.
-  That one bug is why my agents now have a reviewer.
 
 <p align="center">
   <img src="assets/detector-misses.gif" width="600" alt="YOLOv8n on a COCO street scene: green boxes found, red boxes missed" /><br/>
@@ -36,18 +34,33 @@ would pass that kind of review.
 
 ### Toolbox
 
+**ML and vision**<br/>
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![timm](https://img.shields.io/badge/timm-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-111F68?style=flat-square&logo=ultralytics&logoColor=white)
+![Albumentations](https://img.shields.io/badge/Albumentations-CC2927?style=flat-square)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square)
+
+**LLMs and agents**<br/>
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+
+**MLOps and engineering**<br/>
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure%20ML-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Azure ML](https://img.shields.io/badge/Azure%20ML-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 
 ### Say hi
 
