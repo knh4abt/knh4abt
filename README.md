@@ -29,7 +29,7 @@ every claim needs evidence.
 |---|---|---|---|
 | [perception-triage-agent](https://github.com/knh4abt/perception-triage-agent) | Can an LLM agent correctly report where an object detector fails? | Only after 5 fixes. The more work I moved from the model to code, the more reliable the report got. | YOLOv8, LangGraph, MCP, Ollama, Docker |
 | [driving-scene-segmentation](https://github.com/knh4abt/driving-scene-segmentation) | Where do DeepLabV3+ and SegFormer-B0 fail on Cityscapes? | 72.9% vs 60.1% mIoU. The gap is not noise: trucks get labelled as cars. | PyTorch, Hugging Face |
-| [medvision](https://github.com/knh4abt/medvision) | How far does a small CNN get on colorectal histology? | EfficientNet-B0, 99.6% accuracy on NCT-CRC-HE-100K. | PyTorch, timm, Albumentations |
+| [medvision](https://github.com/knh4abt/medvision) | How far does a small CNN get on colorectal histology? | EfficientNet-B0, 99.6% on a held-out split of NCT-CRC-HE-100K. Next: the external test set. | PyTorch, timm, Albumentations |
 | [rul-for-nasa-jet-engines](https://github.com/knh4abt/rul-for-nasa-jet-engines) | How long until a jet engine fails? | Random Forest on NASA C-MAPSS, RMSE 46 (75% better than baseline). | scikit-learn, pandas |
 
 ### Toolbox
