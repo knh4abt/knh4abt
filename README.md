@@ -19,8 +19,8 @@ every claim needs evidence.
 - 🧭 **Interested in:** robotics, aerospace and defense.
 
 <p align="center">
-  <img src="assets/detector-misses.gif" width="600" alt="YOLOv8n on a COCO street scene: green boxes found, red boxes missed" /><br/>
-  <sub>YOLOv8n on a COCO street scene. Green: found. Red: missed. From <a href="https://github.com/knh4abt/perception-triage-agent">perception-triage-agent</a>.</sub>
+  <img src="assets/agent-story.gif" width="600" alt="Detector misses objects, an LLM agent explains it wrongly, a reviewer catches it, the agent fixes it" /><br/>
+  <sub>A real catch from <a href="https://github.com/knh4abt/perception-triage-agent">perception-triage-agent</a>: the agent copied the numbers right and drew the wrong conclusion.</sub>
 </p>
 
 ### Projects
