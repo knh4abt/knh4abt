@@ -25,46 +25,45 @@ every claim needs evidence.
 
 ### Projects
 
-| Project | Question | Answer | Stack |
-|---|---|---|---|
-| [perception-triage-agent](https://github.com/knh4abt/perception-triage-agent) | Can an LLM agent correctly report where an object detector fails? | Only after 5 fixes. The more work I moved from the model to code, the more reliable the report got. | YOLOv8, LangGraph, MCP, Ollama, Docker |
-| [driving-scene-segmentation](https://github.com/knh4abt/driving-scene-segmentation) | Where do DeepLabV3+ and SegFormer-B0 fail on Cityscapes? | 72.9% vs 60.1% mIoU. The gap is not noise: trucks get labelled as cars. | PyTorch, Hugging Face |
-| [medvision](https://github.com/knh4abt/medvision) | How far does a small CNN get on colorectal histology? | EfficientNet-B0, 99.6% on a held-out split of NCT-CRC-HE-100K. Next: the external test set. | PyTorch, timm, Albumentations |
-| [rul-for-nasa-jet-engines](https://github.com/knh4abt/rul-for-nasa-jet-engines) | How long until a jet engine fails? | Random Forest on NASA C-MAPSS, RMSE 46 (75% better than baseline). | scikit-learn, pandas |
+<table>
+  <tr>
+    <td width="50%"><a href="https://github.com/knh4abt/perception-triage-agent"><img src="assets/projects/perception-triage-agent.png" alt="perception-triage-agent" /></a></td>
+    <td width="50%"><a href="https://github.com/knh4abt/driving-scene-segmentation"><img src="assets/projects/driving-scene-segmentation.png" alt="driving-scene-segmentation" /></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/knh4abt/rul-for-nasa-jet-engines"><img src="assets/projects/rul-for-nasa-jet-engines.png" alt="rul-for-nasa-jet-engines" /></a></td>
+    <td width="50%"><a href="https://github.com/knh4abt/medvision"><img src="assets/projects/medvision.png" alt="medvision" /></a></td>
+  </tr>
+</table>
 
 ### Toolbox
 
-**ML and vision**<br/>
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![timm](https://img.shields.io/badge/timm-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![YOLOv8](https://img.shields.io/badge/YOLOv8-111F68?style=flat-square&logo=ultralytics&logoColor=white)
-![Albumentations](https://img.shields.io/badge/Albumentations-CC2927?style=flat-square)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,cpp,pytorch,sklearn,docker,githubactions,azure,git,linux&perline=9" alt="Python, C++, PyTorch, scikit-learn, Docker, GitHub Actions, Azure, Git, Linux" />
+</p>
 
-**LLMs and agents**<br/>
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
-
-**MLOps and engineering**<br/>
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Azure ML](https://img.shields.io/badge/Azure%20ML-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+<p align="center">
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangGraph" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
+  <img src="https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=modelcontextprotocol&logoColor=white" alt="MCP" />
+  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama" />
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" />
+  <img src="https://img.shields.io/badge/YOLOv8-111F68?style=for-the-badge&logo=ultralytics&logoColor=white" alt="YOLOv8" />
+  <br/>
+  <img src="https://img.shields.io/badge/timm-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="timm" />
+  <img src="https://img.shields.io/badge/Albumentations-CC2927?style=for-the-badge" alt="Albumentations" />
+  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge" alt="Matplotlib" />
+  <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" alt="MLflow" />
+  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="pytest" />
+</p>
 
 ### Say hi
 
-[![Email](https://img.shields.io/badge/Email-nael.tarek.95%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:nael.tarek.95@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nael-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nael-k-8016a711a/)
+<p align="center">
+  <a href="https://www.linkedin.com/in/nael-k-8016a711a/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:nael.tarek.95@gmail.com"><img src="https://img.shields.io/badge/nael.tarek.95@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="nael.tarek.95@gmail.com" /></a>
+</p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=100&section=footer" width="100%" alt="" />
