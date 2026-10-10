@@ -27,26 +27,55 @@ every claim needs evidence.
 
 <table>
   <tr>
-    <td width="50%"><a href="https://github.com/knh4abt/perception-triage-agent"><img src="assets/projects/perception-triage-agent.png" alt="perception-triage-agent" /></a></td>
-    <td width="50%"><a href="https://github.com/knh4abt/driving-scene-segmentation"><img src="assets/projects/driving-scene-segmentation.png" alt="driving-scene-segmentation" /></a></td>
-  </tr>
-  <tr>
-    <td width="50%"><a href="https://github.com/knh4abt/rul-for-nasa-jet-engines"><img src="assets/projects/rul-for-nasa-jet-engines.png" alt="rul-for-nasa-jet-engines" /></a></td>
-    <td width="50%"><a href="https://github.com/knh4abt/medvision"><img src="assets/projects/medvision.png" alt="medvision" /></a></td>
+    <td width="45%"><a href="https://github.com/knh4abt/perception-triage-agent"><img src="assets/projects/perception-triage-agent-still.png" alt="YOLOv8n on a street scene: green found, red missed" /></a></td>
+    <td>
+      <b>Latest</b><br/>
+      <h3><a href="https://github.com/knh4abt/perception-triage-agent">perception-triage-agent</a></h3>
+      Can an LLM agent correctly report where an object detector fails?<br/><br/>
+      Three specialist agents analyse YOLOv8n's failures; a reviewer checks every claim against the data and sends wrong sections back.<br/><br/>
+      <code>LangGraph</code> <code>MCP</code> <code>YOLOv8</code> <code>Ollama</code> <code>Docker</code>
+    </td>
   </tr>
 </table>
+
+**[driving-scene-segmentation](https://github.com/knh4abt/driving-scene-segmentation)**: how small can a segmentation model get before it is unsafe?<br/>
+DeepLabV3+ 72.9% vs SegFormer-B0 60.1% mIoU on Cityscapes; trucks get labelled as cars. `PyTorch` `Hugging Face`
+
+**[rul-for-nasa-jet-engines](https://github.com/knh4abt/rul-for-nasa-jet-engines)**: how many cycles until a jet engine needs maintenance?<br/>
+Random Forest on NASA C-MAPSS, RMSE 46 cycles, 4x better than linear baselines. `scikit-learn` `pandas`
+
+**[medvision](https://github.com/knh4abt/medvision)**: how far does a small CNN get on colorectal histology?<br/>
+EfficientNet-B0, 99.6% on a held-out split of NCT-CRC-HE-100K. `PyTorch` `timm`
 
 ### Toolbox
 
-<table>
-  <tr><th>Area</th><th>Tools</th><th>Where you can see it</th></tr>
-  <tr><td><b>Perception</b></td><td><img height="16" src="https://cdn.simpleicons.org/pytorch" alt="" /> PyTorch &nbsp; <img height="16" src="https://cdn.simpleicons.org/huggingface" alt="" /> Hugging Face &nbsp; <img height="16" src="https://cdn.simpleicons.org/ultralytics" alt="" /> YOLOv8 &nbsp; timm &nbsp; Albumentations</td><td><a href="https://github.com/knh4abt/driving-scene-segmentation">Segmentation on Cityscapes</a>, <a href="https://github.com/knh4abt/perception-triage-agent">detection on COCO</a>, <a href="https://github.com/knh4abt/medvision">histology classification</a></td></tr>
-  <tr><td><b>LLM agents</b></td><td><img height="16" src="https://cdn.simpleicons.org/langgraph/1C3C3C/white" alt="" /> LangGraph &nbsp; <img height="16" src="https://cdn.simpleicons.org/langchain/1C3C3C/white" alt="" /> LangChain &nbsp; <img height="16" src="https://cdn.simpleicons.org/modelcontextprotocol/black/white" alt="" /> MCP &nbsp; <img height="16" src="https://cdn.simpleicons.org/ollama/black/white" alt="" /> Ollama</td><td><a href="https://github.com/knh4abt/perception-triage-agent">3 specialist agents + editor, 2 MCP servers, a reviewer that checks every claim against the data</a></td></tr>
-  <tr><td><b>Evaluation</b></td><td><img height="16" src="https://cdn.simpleicons.org/scikitlearn" alt="" /> scikit-learn &nbsp; <img height="16" src="https://cdn.simpleicons.org/pandas" alt="" /> pandas &nbsp; <img height="16" src="https://cdn.simpleicons.org/numpy" alt="" /> NumPy &nbsp; Matplotlib</td><td>IoU matching, per-class precision and recall, recall by object size, mIoU, confusion analysis, RMSE</td></tr>
-  <tr><td><b>Engineering</b></td><td><img height="16" src="https://cdn.simpleicons.org/docker" alt="" /> Docker &nbsp; <img height="16" src="https://cdn.simpleicons.org/githubactions" alt="" /> GitHub Actions &nbsp; <img height="16" src="https://cdn.simpleicons.org/pytest" alt="" /> pytest &nbsp; <img height="16" src="https://cdn.simpleicons.org/git" alt="" /> Git &nbsp; <img height="16" src="https://cdn.simpleicons.org/linux" alt="" /> Linux</td><td><a href="https://github.com/knh4abt/perception-triage-agent">Dockerfile, CI with lint, 33 tests and a container build</a></td></tr>
-  <tr><td><b>ML at work</b></td><td><img height="16" src="https://cdn.simpleicons.org/mlflow" alt="" /> MLflow &nbsp; Azure ML &nbsp; <img height="16" src="https://cdn.simpleicons.org/python" alt="" /> Python</td><td>Data Scientist / ML Engineer at Bosch since 2025</td></tr>
-  <tr><td><b>Embedded and robotics</b></td><td><img height="16" src="https://cdn.simpleicons.org/cplusplus" alt="" /> C++</td><td>Robot arm, mobile robots, embedded motor control (M.Sc. Mechatronics)</td></tr>
-</table>
+**ML and vision**<br/>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![timm](https://img.shields.io/badge/timm-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-111F68?style=flat-square&logo=ultralytics&logoColor=white)
+![Albumentations](https://img.shields.io/badge/Albumentations-CC2927?style=flat-square)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square)
+
+**LLMs and agents**<br/>
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+
+**MLOps and engineering**<br/>
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Azure ML](https://img.shields.io/badge/Azure%20ML-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 
 ### Say hi
 
