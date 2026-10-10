@@ -20,8 +20,7 @@ every claim needs evidence.
 - 🧭 **Open to:** AI and ML engineering roles in robotics, aerospace and defense.
 
 <p align="center">
-  <img src="assets/agent-story.gif" width="600" alt="Detector misses objects, an LLM agent explains it wrongly, a reviewer catches it, the agent fixes it" /><br/>
-  <sub>A real catch from <a href="https://github.com/knh4abt/perception-triage-agent">perception-triage-agent</a>: the agent copied the numbers right and drew the wrong conclusion.</sub>
+  <img src="assets/career-path.gif" width="720" alt="Robotics, then ADAS requirements at Bosch, then perception models, then multi-agent systems. Same question at every step: where does it fail?" />
 </p>
 
 ### Projects
