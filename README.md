@@ -38,26 +38,15 @@ every claim needs evidence.
 
 ### Toolbox
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,cpp,pytorch,sklearn,docker,githubactions,azure,git,linux&perline=9" alt="Python, C++, PyTorch, scikit-learn, Docker, GitHub Actions, Azure, Git, Linux" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangGraph" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
-  <img src="https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=modelcontextprotocol&logoColor=white" alt="MCP" />
-  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama" />
-  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" />
-  <img src="https://img.shields.io/badge/YOLOv8-111F68?style=for-the-badge&logo=ultralytics&logoColor=white" alt="YOLOv8" />
-  <br/>
-  <img src="https://img.shields.io/badge/timm-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="timm" />
-  <img src="https://img.shields.io/badge/Albumentations-CC2927?style=for-the-badge" alt="Albumentations" />
-  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge" alt="Matplotlib" />
-  <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" alt="MLflow" />
-  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="pytest" />
-</p>
+<table>
+  <tr><th>Area</th><th>Tools</th><th>Where you can see it</th></tr>
+  <tr><td><b>Perception</b></td><td><img height="16" src="https://cdn.simpleicons.org/pytorch" alt="" /> PyTorch &nbsp; <img height="16" src="https://cdn.simpleicons.org/huggingface" alt="" /> Hugging Face &nbsp; <img height="16" src="https://cdn.simpleicons.org/ultralytics" alt="" /> YOLOv8 &nbsp; timm &nbsp; Albumentations</td><td><a href="https://github.com/knh4abt/driving-scene-segmentation">Segmentation on Cityscapes</a>, <a href="https://github.com/knh4abt/perception-triage-agent">detection on COCO</a>, <a href="https://github.com/knh4abt/medvision">histology classification</a></td></tr>
+  <tr><td><b>LLM agents</b></td><td><img height="16" src="https://cdn.simpleicons.org/langgraph/1C3C3C/white" alt="" /> LangGraph &nbsp; <img height="16" src="https://cdn.simpleicons.org/langchain/1C3C3C/white" alt="" /> LangChain &nbsp; <img height="16" src="https://cdn.simpleicons.org/modelcontextprotocol/black/white" alt="" /> MCP &nbsp; <img height="16" src="https://cdn.simpleicons.org/ollama/black/white" alt="" /> Ollama</td><td><a href="https://github.com/knh4abt/perception-triage-agent">3 specialist agents + editor, 2 MCP servers, a reviewer that checks every claim against the data</a></td></tr>
+  <tr><td><b>Evaluation</b></td><td><img height="16" src="https://cdn.simpleicons.org/scikitlearn" alt="" /> scikit-learn &nbsp; <img height="16" src="https://cdn.simpleicons.org/pandas" alt="" /> pandas &nbsp; <img height="16" src="https://cdn.simpleicons.org/numpy" alt="" /> NumPy &nbsp; Matplotlib</td><td>IoU matching, per-class precision and recall, recall by object size, mIoU, confusion analysis, RMSE</td></tr>
+  <tr><td><b>Engineering</b></td><td><img height="16" src="https://cdn.simpleicons.org/docker" alt="" /> Docker &nbsp; <img height="16" src="https://cdn.simpleicons.org/githubactions" alt="" /> GitHub Actions &nbsp; <img height="16" src="https://cdn.simpleicons.org/pytest" alt="" /> pytest &nbsp; <img height="16" src="https://cdn.simpleicons.org/git" alt="" /> Git &nbsp; <img height="16" src="https://cdn.simpleicons.org/linux" alt="" /> Linux</td><td><a href="https://github.com/knh4abt/perception-triage-agent">Dockerfile, CI with lint, 33 tests and a container build</a></td></tr>
+  <tr><td><b>ML at work</b></td><td><img height="16" src="https://cdn.simpleicons.org/mlflow" alt="" /> MLflow &nbsp; Azure ML &nbsp; <img height="16" src="https://cdn.simpleicons.org/python" alt="" /> Python</td><td>Data Scientist / ML Engineer at Bosch since 2025</td></tr>
+  <tr><td><b>Embedded and robotics</b></td><td><img height="16" src="https://cdn.simpleicons.org/cplusplus" alt="" /> C++</td><td>Robot arm, mobile robots, embedded motor control (M.Sc. Mechatronics)</td></tr>
+</table>
 
 ### Say hi
 
